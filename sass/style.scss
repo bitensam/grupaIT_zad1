@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+  height: 100vh;
+}
+.column {
+  width: 40%;
+  min-height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  &.even {
+    color: green;
+    border: 2px solid green;
+  }
+
+  &.odd {
+    color: red;
+    border: 2px solid red;
+  }
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 24px;
+  background-color: white;
+  border: 2px solid blue;
+  color: navy;
+  cursor: pointer;
+
+  &:hover {
+    border-color: violet;
+    color: violet;
+  }
+}

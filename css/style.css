@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+  height: 100vh;
+}
+
+.column {
+  width: 40%;
+  min-height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.even {
+  color: green;
+  border: 2px solid green;
+}
+
+.column.odd {
+  color: red;
+  border: 2px solid red;
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 24px;
+  background-color: white;
+  border: 2px solid blue;
+  color: navy;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: violet;
+  color: violet;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFVBQVU7RUFDVixTQUFTO0FDQ1g7O0FEQ0E7RUFDRSxhQUFhO0VBQ2IsOEJBQThCO0VBQzlCLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1osYUFBYTtBQ0VmOztBREFBO0VBQ0UsVUFBVTtFQUNWLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsYUFBYTtFQUNiLHNCQUFzQjtBQ0d4Qjs7QURSQTtFQVFJLFlBQVk7RUFDWix1QkFBdUI7QUNJM0I7O0FEYkE7RUFhSSxVQUFVO0VBQ1YscUJBQXFCO0FDSXpCOztBREFBO0VBQ0UsYUFBYTtFQUNiLGVBQWU7RUFDZix1QkFBdUI7RUFDdkIsc0JBQXNCO0VBQ3RCLFdBQVc7RUFDWCxlQUFlO0FDR2pCOztBRFRBO0VBU0ksb0JBQW9CO0VBQ3BCLGFBQWE7QUNJakIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
